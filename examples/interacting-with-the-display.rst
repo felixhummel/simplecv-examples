@@ -23,7 +23,7 @@ Now we will incorporate this into our example::
 	cam = Camera()
 	disp = Display()
 
-	while disp.isNotDone():
+	while not display.isDone()
 		img = cam.getImage()
 		if disp.mouseLeft:
 			break
